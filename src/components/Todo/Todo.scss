@@ -1,0 +1,52 @@
+.todo-item{
+  padding: 16px 10px;
+  border-bottom: 1px solid black;
+  display: flex;
+  animation: ease-in 3s;
+  &:hover {
+    background: #c5656d ;
+    color: #ffffff;
+  }
+}
+.item-name {
+  flex-basis: 0;
+  flex-grow: 9;
+}
+
+.item-edit {
+  flex-basis: 0;
+  text-align: left;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: center;
+}
+
+.save-edits {
+  padding-right: 5px;;
+}
+
+.update-todo {
+  display: flex;
+  width: 100%;
+}
+
+.update-input{
+  font-size: x-large;
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid #708d81;
+}
+
+.item-remove{
+  flex-basis: 0;
+  text-align: right;
+  color: #aa422f;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 3em;
+  &:hover{
+    transform: scale(1.2);
+  }
+}
+

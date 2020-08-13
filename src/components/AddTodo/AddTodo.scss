@@ -1,0 +1,34 @@
+.submit-btn{
+    font-size: x-large;
+    font-weight: bold;
+    flex-grow: 3;
+    padding: 10px;
+    background: #5f031c;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.submit-btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(92, 88, 88, 0.513);
+}
+
+.submit-btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(92, 88, 88, 0.513);
+}
+
+.input-field{
+    font-size: x-large;
+    flex-basis: 0;
+    flex-grow: 7;
+    padding: 10px;
+    border-radius: 4px 0 0 4px;
+    color: #777;
+}
+
+.form-container{
+    display: flex !important;
+}
